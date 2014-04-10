@@ -1,0 +1,142 @@
+<html>
+	<head>
+    	<!--аблизательная херня-->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=900,initial-scale=0.1,maximum-scale=1" />
+        <!--майнескриптен-->
+    	<link rel="stylesheet" type="text/css" href="styles.css">
+        <script type="text/javascript" src="scripts.js"></script>
+        
+        <script type="text/javascript" src="initAlbums.js"></script>
+        <!--буржуйские примочки-->
+  		<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+        <!-- гуглошрифт-->
+        <link href='http://fonts.googleapis.com/css?family=Jolly+Lodger' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Seymour+One&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Bad+Script&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+    	<div class="header">
+        	<background style="background-color:#fcfcfc;"></background>
+            
+            <div class="logo">
+            		<img src="http://2.bp.blogspot.com/-Dh0COniANyQ/T1sfF3ShSBI/AAAAAAAAB5w/G3SUZ5uYMiY/s1600/polaroid.png"/>
+                	<span>Штейнлухт Юлия</span>
+            </div>
+            <div class="navigation">
+            	<ul>
+                    <li>
+                		<a  onClick="initField()" href="#pricing">Pricing</a>
+                    </li>
+                    <li>
+                		<a id="pricing" href="#about">About me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+        <!--ВНИМАААНИЕ! ширина колонок устанавливается в javascript в процентах относительно ширины экрана!!1-->
+            <ul class="services-list">
+                <li onClick="onCategorySelected(this)" class="category">
+                    <div>
+                        <a  href="#">
+                    		<vignette></vignette>
+                           <img class="image" src="http://cs314731.vk.me/v314731923/a11/0lbHYPE3Pc8.jpg"/>
+                            <div class="info">
+                            	<background></background>
+                            	<p class="title">Студия</p>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li onClick="onCategorySelected(this)" class="category">
+                    <div>
+                        <a   href="#">
+                    	<vignette></vignette>
+                            <img   class="image" src="http://cs305100.vk.me/v305100923/5c66/G5i0P-u8yN8.jpg"/>
+                            <div class="info">
+                            	<background></background>
+                            	<p class="title">Проекты</p>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li onClick="onCategorySelected(this)" class="category">
+                    <div>
+                        <a  href="#">
+                    		<vignette></vignette>
+                            <img class="image" src="http://cs317930.vk.me/v317930923/30de/P89A8dYaRY0.jpg"/>
+                            <div class="info">
+                            	<background></background>
+                            	<p class="title">Акции</p>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li  onClick="onCategorySelected(this)" class="category" >
+                    <div>
+                        <a  href="#">
+                    		<vignette></vignette>
+                            <img class="image"  src="http://cs5751.vk.me/u881923/149963252/w_9307c690.jpg"/>
+                            <div class="info">
+                            	<background></background>
+                            	<p class="title">Просто</p>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <!--li class="album">
+                	<a>
+                    	<vignette></vignette>
+                		<img class="image" src="http://cs317930.vk.me/v317930923/30de/P89A8dYaRY0.jpg"/>
+                        <p class="info">Альбом</p>
+                    </a>
+                	<a>
+                    	<vignette></vignette>
+                		<img class="image" src="http://cs317930.vk.me/v317930923/30de/P89A8dYaRY0.jpg"/>
+                        <p class="info">Альбом</p>
+                    </a>
+                </li-->
+            </ul>
+            
+            <!--div class="mosaic">
+                <div class="square">
+                    <img src="http://cs5751.vk.me/u881923/149963252/w_9307c690.jpg" />
+                </div>
+                <div class="wide">
+                    <img src="http://cs5751.vk.me/u881923/149963252/w_9307c690.jpg" />
+                </div>
+                <div class="normal">
+                    <img src="http://cs5751.vk.me/u881923/149963252/w_9307c690.jpg" />
+                </div>
+                <div class="important">
+                    <img src="http://cs5751.vk.me/u881923/149963252/w_9307c690.jpg" />
+                </div>
+            </div-->
+            
+        </div>
+        <div class="footer">
+        	<background style="background-color:#fcfcfc;"></background>
+            <div class="navigation">
+            	<ul>
+                	<li>
+                    	<p>Copyright? ©</p>
+                    </li>
+                	<li>
+                		<a href="http://vk.com"><img src="http://star-center.ru/img/users/vk_icon.png"/></a>
+                    </li>
+                	<li>
+            			<a href="http://facebook.com"><img src="http://milesofmotivation.womenraces.com/wp-content/uploads/sites/3/2013/03/facebook500.png"/></a>
+                    </li>
+                    <li>
+                		<a href="http://google.com"><img src="http://milesofmotivation.womenraces.com/wp-content/uploads/sites/3/2013/03/googleplus-revised.png"/></a>
+                    </li>
+                    <li>
+                		<a href="http://instagram.com"><img src="http://milesofmotivation.womenraces.com/wp-content/uploads/sites/3/2013/03/instagram500.png"/></a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
